@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="neuralStimulation2.tabbedPages.motionControl">
+    <ContentPage.Content>
+        <StackLayout >
+            <Image Source="a"  />
+            <StackLayout Margin="20,0,20,0" >
+                <Label Margin="10, 20,0,0" Text="Channel 1" TextColor="#153d61" FontSize="15" />
+                <Slider Margin="0, 20,0,0" ThumbColor="#153d61"
+                    MinimumTrackColor="#153d61" MaximumTrackColor="DarkRed"  />
+
+                <Label Margin="10, 20,0,0" Text="Channel 2" TextColor="#153d61" FontSize="15" />
+                <Slider Margin="0, 20,0,0" ThumbColor="#153d61"
+                    MinimumTrackColor="#153d61" MaximumTrackColor="DarkRed"/>
+
+                <Label Margin="10, 20,0,0" Text="Channel 3" TextColor="#153d61" FontSize="15" />
+                <Slider Margin="0, 20,0,0" ThumbColor="#153d61"
+                    MinimumTrackColor="#153d61" MaximumTrackColor="DarkRed"/>
+
+
+                <Label Margin="10, 20,0,0" Text="Channel 4" TextColor="#153d61" FontSize="15"  />
+                <Slider Margin="0, 20,0,0" ThumbColor="#153d61" MinimumTrackColor="#153d61" MaximumTrackColor="DarkRed"/>
+
+            </StackLayout>
+            
+            <Button Text="Stop" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" 
+                    BackgroundColor="#e28743" CornerRadius="20" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

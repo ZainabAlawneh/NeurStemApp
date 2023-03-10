@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="neuralStimulation2.tabbedPages.findThreshold"
+             Padding="0,0,0,0">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Image Source="a"  />
+            </StackLayout>
+            <StackLayout Padding="0,10,0,0" Orientation="Horizontal" >
+                <Label  Text="Channel #1" FontSize="20" Padding="10,10,30,0" TextColor="#153d61"/>
+                <Entry  Placeholder="0 -> 255"  FontSize="15"
+                        WidthRequest="200" 
+                        Keyboard="Numeric" 
+                        HorizontalOptions="CenterAndExpand"    />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label  Text="Channel #2" FontSize="20" Padding="10,10,30,0" TextColor="#153d61" />
+                <Entry  Placeholder="0 -> 255"  FontSize="15"  
+                        WidthRequest="200"
+                        Keyboard="Numeric"
+                        HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label  Text="Channel #3" FontSize="20" Padding="10,10,30,0" TextColor="#153d61" />
+                <Entry  Placeholder="0 -> 255"  FontSize="15"
+                        WidthRequest="200" 
+                        Keyboard="Numeric" 
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label  Text="Channel #4" FontSize="20" Padding="10,10,30,0" TextColor="#153d61" />
+                <Entry  Placeholder="0 -> 255"  FontSize="15"
+                        WidthRequest="200" 
+                        Keyboard="Numeric" 
+                        HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Padding="0,20,0,0">
+                <Button Text="Update" HorizontalOptions="Center" 
+                        TextColor="White"
+                        BackgroundColor="#153d61"/>
+            </StackLayout>
+
+            <StackLayout  Padding="0,50,0,0">
+                
+                
+                <Button Text="Trigger" HorizontalOptions="FillAndExpand" 
+                        TextColor="White" FontSize="20"
+                        BackgroundColor= "#e28743"/>
+            </StackLayout>
+
+
+
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

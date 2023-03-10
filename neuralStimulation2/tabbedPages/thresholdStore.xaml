@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="neuralStimulation2.tabbedPages.thresholdStore"
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Image Source="a"  />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Margin="20,20,10,0" >
+                <Label Text="Motion#1" TextColor="#153d61" FontSize="17"/>
+                <Entry Placeholder=" Channel #" FontSize="14" PlaceholderColor="#e28743" Opacity="0.5"/>
+                <Entry Placeholder="Low current" FontSize="14"/>
+                <Entry Placeholder="High current" FontSize="14"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="20,20,10,0" >
+                <Label Text="Motion#2" TextColor="#153d61" FontSize="17"/>
+                <Entry Placeholder=" Channel #" FontSize="14" PlaceholderColor="#e28743" Opacity="0.5"/>
+                <Entry Placeholder="Low current" FontSize="14"/>
+                <Entry Placeholder="High current" FontSize="14"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="20,20,10,0" >
+                <Label Text="Motion#3" TextColor="#153d61" FontSize="17"/>
+                <Entry Placeholder=" Channel #" FontSize="14" PlaceholderColor="#e28743" Opacity="0.5"/>
+                <Entry Placeholder="Low current" FontSize="14"/>
+                <Entry Placeholder="High current" FontSize="14"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Margin="20,20,10,0" >
+                <Label Text="Motion#4" TextColor="#153d61" FontSize="17"/>
+                <Entry Placeholder=" Channel #" FontSize="14" PlaceholderColor="#e28743" Opacity="0.5"/>
+                <Entry Placeholder="Low current" FontSize="14"/>
+                <Entry Placeholder="High current" FontSize="14"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"  Margin="30,50,30,0">
+                <Button HorizontalOptions="StartAndExpand" CornerRadius="50"
+                        Text="update" TextColor="White"
+                        BackgroundColor="#153d61"/>
+                <Button HorizontalOptions="Center" CornerRadius="50"
+                        Text="Success" TextColor="White"
+                        BackgroundColor="#e28743"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
