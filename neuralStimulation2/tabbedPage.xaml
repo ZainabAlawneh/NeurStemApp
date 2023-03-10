@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="neuralStimulation2.tabbedPage"
+            BarBackgroundColor="#153d61"
+            BarTextColor="White"
+            
+           
+            xmlns:local="clr-namespace:neuralStimulation2.tabbedPages">
+
+    <local:motionControl Title="Control Motion" />
+    <local:findThreshold Title="Find Threshold" />
+ 
+    <local:thresholdStore Title="Store threshold"/>
+</TabbedPage>
